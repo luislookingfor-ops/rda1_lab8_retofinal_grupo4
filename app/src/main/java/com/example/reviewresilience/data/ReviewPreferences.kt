@@ -29,7 +29,6 @@ class ReviewPreferences(private val context: Context) {
         preferences[RATING_KEY] ?: 0
     }
 
-    // Guardar borrador en disco
     suspend fun saveDraft(content: String) {
         context.dataStore.edit { preferences ->
             preferences[DRAFT_KEY] = content
