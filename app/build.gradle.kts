@@ -70,5 +70,6 @@ dependencies {
     // Corrutinas
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     implementation(libs.androidx.savedstate.android)
+    implementation(libs.androidx.runtime.livedata)
 }
 
