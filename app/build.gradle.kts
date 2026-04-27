@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.reviewresilence"
+    namespace = "com.example.reviewresilience"
     compileSdk = 36
 
 
     defaultConfig {
-        applicationId = "com.example.reviewresilence"
+        applicationId = "com.example.reviewresilience"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
